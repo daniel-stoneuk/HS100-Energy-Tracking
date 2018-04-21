@@ -7,12 +7,12 @@ Creates a csv file (`log.csv`) containing live measurement from the TP-Link Smar
 ## Usage
 
 ```
-hs100logger.sh ipaddress port delayinseconds
+./hs100logger.sh ipaddress port delayinseconds
 ```
 
 For example (replace ip with your plug's ip address):
 
 ```
-hs100logger.sh 192.168.1.135 9999 5
+./hs100logger.sh 192.168.1.135 9999 5
 ```
 
